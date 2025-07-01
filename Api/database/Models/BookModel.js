@@ -16,7 +16,7 @@ const bookSchema = new mongoose.Schema({
         timestamps: true
     });
 
-class BookModel extends mongoose.model {
+class BookModel extends mongoose.Model {
 
 }
 

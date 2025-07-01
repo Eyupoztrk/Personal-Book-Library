@@ -12,7 +12,7 @@ const categorySchema = new mongoose.Schema(
         timestamps: true
     });
 
-class CategoryModel extends mongoose.model {
+class CategoryModel extends mongoose.Model {
 
 }
 
