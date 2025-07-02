@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const bookSchema = new mongoose.Schema({
     title: { type: String, required: true },
     author: { type: String, required: true },
-    password: { type: String, required: true },
     rating: String,
     notes: String,
     readDate: mongoose.Schema.Types.Date,
